@@ -17,11 +17,11 @@ public class Exercise02_13 {
         
         System.out.print("Enter the monthly saving amount: ");
         double amt = input.nextDouble();
-        final double inputAmt = amt;
+        final double INPUT_AMT = amt;
         
         // Use for loop
         for (int i =0; i < 5; i++){
-            amt = (inputAmt + amt) * (1 + 0.00417);
+            amt = (INPUT_AMT + amt) * (1 + 0.00417);
         }
             
         System.out.println("After the sixth month, the account value is $" + amt);
